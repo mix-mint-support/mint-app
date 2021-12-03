@@ -23,7 +23,7 @@ export default class KlubsArmy extends DomNode {
         super(".klubs-army");
         this.append(
             this.mintPrice = el(".mint-price", "MINT PRICE:"),
-            this.mixBalance = el(".mix-balance", "YOUR EMIX:"),
+            this.mixBalance = el(".mix-balance", "YOUR MIX:"),
             el("img.title", { src: "/images/klubs-army/title.png", srcset: "/images/klubs-army/title@2x.png 2x" }),
             el("img.image", { src: "/images/klubs-army/image.png", srcset: "/images/klubs-army/image@2x.png 2x" }),
             el(".wallet-address-container",
