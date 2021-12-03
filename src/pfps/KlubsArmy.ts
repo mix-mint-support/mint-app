@@ -79,7 +79,7 @@ export default class KlubsArmy extends DomNode {
     }
 
     private async progress() {
-        const remains = (await KlubsArmyMinterContract.limit()).sub(await KlubsArmyContract.totalSupply()).toNumber();
+        const remains = (await KlubsArmyMinterContract.limit()).toNumber();
         const d = this.TODAY_COUNT - remains > this.TODAY_COUNT ? this.TODAY_COUNT : this.TODAY_COUNT - remains;
         this.bar.style({ width: `${d / this.TODAY_COUNT * 100}%` });
         this.mintCount.empty().appendText(`${d}/${this.TODAY_COUNT}`);
