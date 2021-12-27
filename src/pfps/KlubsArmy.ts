@@ -20,7 +20,7 @@ export default class KlubsArmy extends DomNode {
     private bar: DomNode;
 
     constructor() {
-        super(".klubs-army");
+        super(".mint-panel.klubs-army");
         this.append(
             this.mintPrice = el(".mint-price", "MINT PRICE:"),
             this.mixBalance = el(".mix-balance", "YOUR MIX:"),

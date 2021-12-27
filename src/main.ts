@@ -1,11 +1,17 @@
-import { BodyNode } from "@hanul/skynode";
+import { BodyNode, el } from "@hanul/skynode";
 import Wallet from "./klaytn/Wallet";
-import KlubsArmy from "./pfps/KlubsArmy";
+import KDGC from "./pfps/KDGC";
 
 (async () => {
 
     BodyNode.append(
-        new KlubsArmy(),
+        el("main",
+            new KDGC(),
+            el(".soldout", el("img", {
+                src: "/images/klubs-army/soldout.png",
+                srcset: "/images/klubs-army/soldout@2x.png 2x",
+            })),
+        ),
     );
 
     if (await Wallet.connected() !== true) {
