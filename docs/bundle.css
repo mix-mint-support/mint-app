@@ -218,15 +218,14 @@ body > main > .soldout {
 .kdgc > .title {
   display: block;
   margin: auto;
-  margin-top: 5px;
 }
 .kdgc > .image {
   display: block;
   margin: auto;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 .kdgc > .wallet-address-container {
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
 }
 .kdgc > .wallet-address-container h3 {
@@ -234,7 +233,7 @@ body > main > .soldout {
   flex-grow: 1;
 }
 .kdgc > .count-input-container {
-  margin-top: 8px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
 }
@@ -243,6 +242,7 @@ body > main > .soldout {
   flex-grow: 1;
 }
 .kdgc > .count-input-container input {
+  margin-top: -2px;
   width: 120px;
   text-align: right;
   border: 2px solid #fff;
