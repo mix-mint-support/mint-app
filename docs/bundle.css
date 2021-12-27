@@ -233,7 +233,7 @@ body > main > .soldout {
   flex-grow: 1;
 }
 .kdgc > .count-input-container {
-  margin-top: 5px;
+  margin-top: 7px;
   display: flex;
   align-items: center;
 }
@@ -242,7 +242,7 @@ body > main > .soldout {
   flex-grow: 1;
 }
 .kdgc > .count-input-container input {
-  margin-top: -2px;
+  margin-top: -4px;
   width: 120px;
   text-align: right;
   border: 2px solid #fff;
