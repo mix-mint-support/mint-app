@@ -7,7 +7,7 @@ import Wallet from "../klaytn/Wallet";
 
 export default class KDGC extends DomNode {
 
-    private TODAY_COUNT = 8687;
+    private TODAY_COUNT = 3687;
 
     private interval: any;
 
